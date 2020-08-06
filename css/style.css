@@ -1,16 +1,27 @@
 body{background-color: maroon;}
-#header-nav{background: yellow;
+#header-nav{background:#1E90FF;
 border-radius: 0;}
-#nav-list li:hover{background-color: white;}
-#nav-list li{ color: maroon; 
-}
+#nav-list li:hover{color:#FF0000;
+font-weight: 900; }
+#nav-list li:{ background-color: #696969;
+	color: #87CEEB; margin-top: 0;
+	margin-bottom: 0;
+	padding-top: 4px;padding-bottom: 4px; margin-left: 5px;
+} 
+
+
+ul{margin-top: 0px;}
 #nav-list li {text-align:center;}
-.navnar-brand h1 {margin-top: 0;margin-bottom: 0;
-font-size: 0.7em;}
-.navbar-header button.navbar-toggle { margin-right: 5px;
-margin-top: 40px;margin-bottom: 0px;}
+.navnar-brand h1,p {margin-top: 0;margin-bottom: 0;float: right ! important;
+}
+.navbar-header button.navbar-toggle { margin-right:92%;float: left !important;
+margin-top:15px;margin-bottom: 0px;}
 @media (max-width: 768px){
-#nav-list li{background-color: blue;}
+
 }
 #m {text-transform: uppercase; margin-top: 0px; margin-bottom: 0px;}
 .ma{margin-top: 0px;}
+.dropdown ul{background-color: yellow;}
+#mano{position:absolute; right: 200px;
+top: 8px; font-size: 25px;}
+
