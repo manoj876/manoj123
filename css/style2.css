@@ -1,14 +1,2 @@
-.sidebar {white-space: nowrap;
-background-color: black;
-opacity: 0.5; padding-top: 12px;
-position: fixed;
-overflow:scroll;
-width: 100%;
-top: 50px;
-}
-a {display: inline-block;
-	margin-left: 15px;
-
-padding: 5px;
-border: 3px solid white;}
-a:hover {background-color: yellow;}
+a {font-size: 30px !important;
+color:blue;}
